@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap');
+
+@import url("botoes.css");
+@import url("input.css");
+@import url("cartao.css");
+@import url("item.css");
+@import url("produto.css");
+
+:root {
+    --cor-amarelo: #FFCB47;
+    --cor-branco: #FFFFFF;
+    --cor-cinza: #909090;
+    --cor-preto: #202020;
+    --preto-sombra: #0000000f;
+
+    --tamanho-corpo: 1em;
+    --tamanho-titulo: 1.375em;
+    --tamanho-titulo-destaque:2em;
+
+    --fonte-titulo-destaque: 'Elsie Swash Caps', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: var(--cor-cinza);
+
+    background: url(../img/fundo-textura.png), url(../img/fundo-linhas.png);
+    background-position: center;
+}
+
+.container {
+    padding: 0 1em;
+}
+
+.titulo {
+    font-size: var(--tamanho-titulo);
+    font-weight: 400;
+}
+
+.titulo--destaque {
+    font-family: var(--fonte-titulo-destaque);
+    color: var(--cor-preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: 900;
+
+    display: block;
+
+    margin: .75em 0;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+
+.alinhamento--meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}

@@ -1,0 +1,40 @@
+.lista-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+
+    width: 15em;
+    margin-bottom: 1em;
+}
+
+.item__icone {
+    display: block;
+    margin-right: 1em;
+
+    width: 3.25em;
+    height: 3.25em;
+
+    border-radius: 50%;
+
+    background-color: var(--cor-amarelo);
+
+    background-size: 1.375em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item__icone--cursor {
+    background-image: url(../img/icones/mouse.svg);
+}
+
+.item__icone--carrinho {
+    background-image: url(../img/icones/cart.svg);
+}
+.item__icone--caminhao {
+    background-image: url(../img/icones/truck.svg);
+}
