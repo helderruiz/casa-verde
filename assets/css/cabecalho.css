@@ -1,0 +1,17 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    width: 100%;
+
+    padding: .75em 0;
+}
+
+.cabecalho__logo {
+    width: 11.125em;
+}
+
+.cabecalho__carrinho {
+    width: 1.75em;
+}
