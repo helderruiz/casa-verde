@@ -38,3 +38,7 @@
 .item__icone--caminhao {
     background-image: url(../img/icones/truck.svg);
 }
+
+.como-conseguir {
+    margin-bottom: 1.625em;
+}

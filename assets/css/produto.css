@@ -29,6 +29,8 @@
 .produto__conteudo {
     position: relative;
     z-index: 2;
+
+    margin-left: -12px;
 }
 
 .produto__titulo {
@@ -42,9 +44,12 @@
 
 .produto__comprar {
     color: var(--cor-amarelo);
+    font-weight: 700;
 
     display: flex;
     align-items: center;
+
+    text-decoration: none;
 }
 
 .produto__comprar--icone {

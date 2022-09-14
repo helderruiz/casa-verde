@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap');
 
+/* importando os componentes */
 @import url("botoes.css");
 @import url("input.css");
 @import url("cartao.css");
@@ -8,6 +9,10 @@
 @import url("video.css");
 @import url("cabecalho.css");
 @import url("rodape.css");
+
+/* importando css da pagina index */
+@import url("chamada.css");
+@import url("como-conseguir.css");
 
 :root {
     --cor-amarelo: #FFCB47;
@@ -26,6 +31,7 @@
 
 * {
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -38,7 +44,7 @@ body {
 }
 
 .container {
-    padding: 1em;
+    padding: 8px 1em;
 }
 
 .titulo {
@@ -54,7 +60,7 @@ body {
 
     display: block;
 
-    margin: .75em 0;
+    margin: .2em 0;
 }
 
 .alinhamento--esquerda {

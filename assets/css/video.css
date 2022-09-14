@@ -1,5 +1,5 @@
 .cartao-de-video {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .cartao-de-video__video  {
@@ -10,6 +10,9 @@
     overflow: hidden;
 
     margin-bottom: .5em;
+
+    left: -54px;
+    width: 128%;
 }
 
 .cartao-de-video__video img {
@@ -43,5 +46,9 @@
     color: var(--cor-preto);
     font-size: var(--tamanho-destaque);
     font-weight: 700;
-    margin-bottom: .5em;
+    margin: -6px 0 0 -40px;
+}
+
+.cartao__paragrafo {
+    margin: 2px 0px 0 -40px;
 }
